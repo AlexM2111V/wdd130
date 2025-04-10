@@ -145,7 +145,7 @@ footer {
     border: 1px solid black;
     display: grid;
     align-items: center;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 20% 60% 20%;
     padding: 20px 0px;
     margin: 0px 0px 15px 0px;
 }
@@ -163,7 +163,11 @@ main {
 
 footer p {
     text-align: center;
-    padding: 0px 0px 0px 230px;
+}
+
+footer a {
+    text-align: center;
+    text-decoration: none;
 }
 
 footer .sociallinks a {
